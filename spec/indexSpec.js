@@ -27,7 +27,7 @@ describe('the landing page', () => {
    * page title is displayed.
    */
   it('displays the page title', () => {
-    browser.assert.text('h1', ‘transposer’);
+    browser.assert.text('h1', 'transposer');
   });
 
   /**
