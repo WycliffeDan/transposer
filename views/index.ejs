@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <img src="/images/transposer.png">  
+      <img src="/images/transposer.png">
       <h1><%= title %></h1>
       <!-- place holder for future hamburger menu item -->
       <p></p>
@@ -23,15 +23,15 @@
       <div class=hamburgerDropdown>
         <img src="/images/hamburger24.png">
       </div>
-      <div class=songKeyDropdown>  
+      <div class=songKeyDropdown>
         <p>original key dropdown</p>
       </div>
       <div class=transposeKeyDropdown>
         <p>transpose key dropdown</p>
-      </div>  
-      <div class=transposeButton>
+      </div>
+      <div id="transposeButton" class="transposeButton">
         <input type="submit" value="transpose">
-      </div>  
+      </div>
       <div class="originalSong">
         <textarea id="originalSong" name="originalSong" cols="60" rows="24">
           Happy birthday to you
@@ -49,12 +49,13 @@
           [F]Happy birthday to [C]you
           happy birthday to [F]you
           happy birthday [C]dear [Bb](NAME)
-          [Bb]happy [F]birthday [C]to [F]you          
+          [Bb]happy [F]birthday [C]to [F]you
         </textarea>
-      </div>   
+      </div>
     </form>
     <footer>
       <p class="right"><%= message %></p>
     </footer>
+  <script type="text/javascript" src="/javascripts/transposer.js"></script>
   </body>
 </html>
